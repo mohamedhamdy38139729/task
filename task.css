@@ -100,6 +100,11 @@ background-color: #f3f3fd;
 .visual{
     background-color: #f2fbfa;
 }
+img{
+    width: 1.5vw;
+    height: 1.5vw;
+    position: absolute;
+}
 .continue{
     background-color: #303b59;
     border-radius: 10px;
@@ -112,8 +117,10 @@ background-color: #f3f3fd;
     color: white;
 
 }
+/* for mobile */
 [class*="col-"]{
     width: 100%;
+
 }
 @media only screen and (max-width: 768px) {
     li{
